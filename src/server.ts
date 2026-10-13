@@ -541,7 +541,7 @@ function parseCsv(text: string): Array<Record<string, string>> {
 export function createServer(): McpServer {
   const server = new McpServer({
     name: "screenshotapi-mcp",
-    version: "1.0.0",
+    version: "1.0.1",
   });
 
   server.registerTool(
