@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-MCP server (stdio transport) exposing ScreenshotAPI (screenshotapi.net) as 8 MCP tools. Published to npm as `@screenshotapi/mcp`, run by clients via `npx`. TypeScript, ESM (`"type": "module"`), Node >= 18, no test suite or linter configured. Sibling project to `@commoditypriceapi/mcp` and `@currencyfreaks/mcp` and follows the same layout.
+MCP server (stdio transport) exposing ScreenshotAPI (screenshotapi.net) as 8 MCP tools. Published to npm as `@screenshotapinet/mcp`, run by clients via `npx`. TypeScript, ESM (`"type": "module"`), Node >= 18, no test suite or linter configured. Sibling project to `@commoditypriceapi/mcp` and `@currencyfreaks/mcp` and follows the same layout.
 
 ## Commands
 

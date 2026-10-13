@@ -1,9 +1,9 @@
 # ScreenshotAPI MCP Server
 
-[![npm version](https://img.shields.io/npm/v/%40screenshotapi%2Fmcp?logo=npm&label=npm&color=CB3837)](https://www.npmjs.com/package/@screenshotapi/mcp)
-[![GitHub](https://img.shields.io/badge/GitHub-ScreenshotAPI-181717?logo=github)](https://github.com/ScreenshotAPI/screenshotapi-mcp)
+[![npm version](https://img.shields.io/npm/v/%40screenshotapinet%2Fmcp?logo=npm&label=npm&color=CB3837)](https://www.npmjs.com/package/@screenshotapinet/mcp)
+[![GitHub](https://img.shields.io/badge/GitHub-ScreenshotAPInet-181717?logo=github)](https://github.com/ScreenshotAPInet/screenshotapi-mcp)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-5FA04E?logo=node.js&logoColor=white)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/license-MIT-16A34A)](https://github.com/ScreenshotAPI/screenshotapi-mcp/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-16A34A)](https://github.com/ScreenshotAPInet/screenshotapi-mcp/blob/main/LICENSE)
 
 Official MCP server for [ScreenshotAPI](https://www.screenshotapi.net). It gives your AI assistant 8 tools for website screenshots, URL and HTML to PDF, scrolling videos, JavaScript-aware web scraping (Markdown, text, HTML), and bulk captures. You ask in plain English and the server makes the API calls. Your assistant also gets the screenshot back as an image, so it can see the page it captured.
 
@@ -11,7 +11,7 @@ Works with Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, Cline, Codex,
 
 | Item      | Value                |
 | --------- | -------------------- |
-| Package   | `@screenshotapi/mcp` |
+| Package   | `@screenshotapinet/mcp` |
 | Transport | `stdio`              |
 | Node.js   | `>=18`               |
 
@@ -30,7 +30,7 @@ Works with Claude Desktop, Claude Code, Cursor, Windsurf, VS Code, Cline, Codex,
   "mcpServers": {
     "screenshotapi": {
       "command": "npx",
-      "args": ["-y", "@screenshotapi/mcp"],
+      "args": ["-y", "@screenshotapinet/mcp"],
       "env": {
         "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
       }
@@ -75,7 +75,7 @@ Add to `claude_desktop_config.json` (Settings → Developer → Edit Config):
   "mcpServers": {
     "screenshotapi": {
       "command": "npx",
-      "args": ["-y", "@screenshotapi/mcp"],
+      "args": ["-y", "@screenshotapinet/mcp"],
       "env": {
         "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
       }
@@ -89,7 +89,7 @@ Restart Claude Desktop after saving.
 ### Claude Code
 
 ```bash
-claude mcp add screenshotapi --env SCREENSHOTAPI_TOKEN=<YOUR_API_KEY> -- npx -y @screenshotapi/mcp
+claude mcp add screenshotapi --env SCREENSHOTAPI_TOKEN=<YOUR_API_KEY> -- npx -y @screenshotapinet/mcp
 ```
 
 Start a new Claude Code session after adding the server.
@@ -107,7 +107,7 @@ Or add to `.cursor/mcp.json` manually:
   "mcpServers": {
     "screenshotapi": {
       "command": "npx",
-      "args": ["-y", "@screenshotapi/mcp"],
+      "args": ["-y", "@screenshotapinet/mcp"],
       "env": {
         "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
       }
@@ -127,7 +127,7 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
   "mcpServers": {
     "screenshotapi": {
       "command": "npx",
-      "args": ["-y", "@screenshotapi/mcp"],
+      "args": ["-y", "@screenshotapinet/mcp"],
       "env": {
         "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
       }
@@ -148,7 +148,7 @@ Add to your VS Code `settings.json`:
     "servers": {
       "screenshotapi": {
         "command": "npx",
-        "args": ["-y", "@screenshotapi/mcp"],
+        "args": ["-y", "@screenshotapinet/mcp"],
         "env": {
           "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
         }
@@ -169,7 +169,7 @@ Open MCP Servers panel → **Configure** → **Advanced MCP Settings**. Add to `
   "mcpServers": {
     "screenshotapi": {
       "command": "npx",
-      "args": ["-y", "@screenshotapi/mcp"],
+      "args": ["-y", "@screenshotapinet/mcp"],
       "env": {
         "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
       }
@@ -183,7 +183,7 @@ Restart Cline after saving.
 ### Codex CLI
 
 ```bash
-codex mcp add screenshotapi --env SCREENSHOTAPI_TOKEN=<YOUR_API_KEY> -- npx -y @screenshotapi/mcp
+codex mcp add screenshotapi --env SCREENSHOTAPI_TOKEN=<YOUR_API_KEY> -- npx -y @screenshotapinet/mcp
 codex mcp list
 ```
 
@@ -196,7 +196,7 @@ Use this config:
 ```json
 {
   "command": "npx",
-  "args": ["-y", "@screenshotapi/mcp"],
+  "args": ["-y", "@screenshotapinet/mcp"],
   "env": {
     "SCREENSHOTAPI_TOKEN": "<YOUR_API_KEY>"
   }
@@ -433,7 +433,7 @@ The API key is read from the environment on each call and sent as the `token` pa
 ## Building from Source
 
 ```bash
-git clone https://github.com/ScreenshotAPI/screenshotapi-mcp.git
+git clone https://github.com/ScreenshotAPInet/screenshotapi-mcp.git
 cd screenshotapi-mcp
 npm install
 npm run build
@@ -475,7 +475,7 @@ SCREENSHOTAPI_TOKEN=<YOUR_KEY> npx @modelcontextprotocol/inspector node dist/cli
 - [API Documentation](https://www.screenshotapi.net/docs/getStarted)
 - [Query Builder](https://app.screenshotapi.net)
 - [Pricing](https://www.screenshotapi.net/pricing)
-- [GitHub Repository](https://github.com/ScreenshotAPI/screenshotapi-mcp)
+- [GitHub Repository](https://github.com/ScreenshotAPInet/screenshotapi-mcp)
 
 ## License
 

@@ -1,5 +1,5 @@
 {
-  "name": "@screenshotapi/mcp",
+  "name": "@screenshotapinet/mcp",
   "version": "1.0.0",
   "description": "Official MCP server for ScreenshotAPI — website screenshots, URL/HTML to PDF, scrolling videos, web scraping (text, Markdown, HTML), and bulk captures as MCP tools for Claude, Cursor, Windsurf, and any MCP client.",
   "keywords": [
@@ -15,10 +15,10 @@
     "ai-tools"
   ],
   "homepage": "https://www.screenshotapi.net",
-  "bugs": "https://github.com/ScreenshotAPI/screenshotapi-mcp/issues",
+  "bugs": "https://github.com/ScreenshotAPInet/screenshotapi-mcp/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ScreenshotAPI/screenshotapi-mcp.git"
+    "url": "git+https://github.com/ScreenshotAPInet/screenshotapi-mcp.git"
   },
   "license": "MIT",
   "author": "ScreenshotAPI",
