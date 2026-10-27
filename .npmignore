@@ -4,3 +4,4 @@ CLAUDE.md
 .claude/
 *.log
 .env
+server.json

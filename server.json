@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Screenshot-API/screenshot-mcp",
+  "title": "ScreenshotAPI",
+  "description": "Website screenshots, URL/HTML to PDF, scrolling videos, and web scraping via ScreenshotAPI.",
+  "websiteUrl": "https://www.screenshotapi.net",
+  "repository": {
+    "url": "https://github.com/Screenshot-API/screenshot-mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@screenshotapinet/mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SCREENSHOTAPI_TOKEN",
+          "description": "Your ScreenshotAPI API key from https://app.screenshotapi.net",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "SCREENSHOTAPI_REQUEST_TIMEOUT_MS",
+          "description": "Request timeout in milliseconds (default 180000)",
+          "isRequired": false
+        },
+        {
+          "name": "SCREENSHOTAPI_MAX_INLINE_IMAGE_BYTES",
+          "description": "Max screenshot size returned inline as an image (default 3500000)",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
